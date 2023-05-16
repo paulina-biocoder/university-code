@@ -1,0 +1,99 @@
+%%html
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+<meta charset="UTF-8">
+<title>Document Title</title>
+<style>
+  table { table-layout: fixed; width: 70%; background: white; color: black; }
+  table { border-collapse: collapse; }
+  table td { border: 1px solid lightgray; padding: 4px; }
+  table td { text-align: center; }
+  .gornybrzeg { border-top: 3px solid black; }
+  .prawybrzeg { border-right: 3px solid black; }
+ 
+  .dzien { border: 3px solid black; }
+  table { border-bottom: 3px solid black; }
+  tr.miesiac td{ border: 3px solid black; }
+
+  tr.sobota, tr.niedziela { background: #eee; }
+  .sesja { background: yellow; }
+  .ferie { background: lightpink; }
+  .swieta {background: rgb(255,160,160); }
+  .wariat { font-size: 60%; background: rgb(255,250,230); }
+  .inauguracja { background: red; }
+</style>
+</head>
+<body>
+<table>
+  <tr class='miesiac'>
+    <td colspan='2' style='border-left: none; border-top: none;'> </td><td colspan='5'>PAŹDZIERNIK</td>
+    <td colspan='4'>LISTOPAD</td>
+    <td colspan='4'>GRUDZIEŃ</td>
+    <td colspan='5'>STYCZEŃ</td>
+    <td colspan='3'>LUTY</td>
+  </tr>
+<tr class='poniedzialek'>
+    <td class='dzien'>PN</td><td class='prawybrzeg'>26</td>
+    <td class= 'inauguracja'>3</td><td>10</td><td>17</td>
+    <td>24</td><td class='prawybrzeg swieta' title='swieta'>31</td>
+    <td>7</td><td>14</td><td>21</td><td class='prawybrzeg'>28</td>
+    <td>5</td><td>12</td><td>19</td><td class='prawybrzeg ferie' title='ferie'>26</td>
+    <td class='ferie'>2</td><td>9</td><td>16</td><td>23</td><td class='prawybrzeg'>30</td>
+    <td class='sesja'>6</td><td class='sesja'>13</td><td class='prawybrzeg'>20</td>
+      </tr>
+    <tr class='wtorek'>
+    <td class='dzien'>WT</td><td class='prawybrzeg'>27</td>
+    <td class='inauguracja'>4</td><td>11</td><td>18</td><td class='prawybrzeg'>25</td>
+    <td class='gornybrzeg swieta' title='Wszystkich Swietych'><a target='_blank' href= 'https://pl.wikipedia.org/wiki/Uroczystość_Wszystkich_Świętych'>1</a></td>
+    <td>8</td><td>15</td><td>22</td><td class='prawybrzeg'>29</td>
+    <td>6</td><td>13</td><td>20</td><td class='prawybrzeg ferie' title='ferie'>27</td>
+    <td>3</td><td>10</td><td>17</td><td>24</td><td class='prawybrzeg'>31</td>
+    <td class='sesja'>7</td><td class='sesja'>14</td><td class='prawybrzeg'>21</td>
+      </tr>
+    <tr class='sroda'>
+    <td class='dzien'>ŚR</td><td class='prawybrzeg'>28</td>
+    <td>5</td><td>12</td><td>19</td>
+    <td class='prawybrzeg'>26</td>
+    <td class='swieta' title='swieta'>2</td><td>9</td><td>16</td><td>23</td><td class='prawybrzeg'>30</td>
+    <td>7</td><td>14</td><td>21</td><td class='prawybrzeg ferie' title='ferie'>28</td>
+    <td>4</td><td>11</td><td>18</td><td class='prawybrzeg'>25</td>
+    <td class='gornybrzeg wariat' title= 'wariat plan piatkowy'>1<br>pt</td><td class='sesja'>8</td><td class='sesja'>15</td><td class='prawybrzeg'>22</td>
+      </tr>
+    <tr class='czwartek'>
+    <td class='dzien'>CZ</td><td class='prawybrzeg'>29</td>
+    <td>6</td><td>13</td><td>20</td><td class='prawybrzeg'>27</td>
+    <td>3</td><td>10</td><td>17</td><td class='prawybrzeg'>24</td>
+    <td class='gornybrzeg'>1</td><td>8</td><td>15</td><td class='wariat' title='plan piatkowy'>22<br>pt</td>
+    <td class='prawybrzeg ferie' title='ferie'>29</td>
+    <td>5</td><td>12</td><td>19</td><td class='prawybrzeg'>26</td>
+    <td class= 'wariat' title= 'plan poniedzialkowy'>2<br>pn</td><td class='sesja'>9</td><td class='sesja'>16</td><td class='prawybrzeg'>23</td>
+      </tr>
+    <tr class='piatek'>
+    <td class='dzien'>PT</td><td class='prawybrzeg'>30</td>
+    <td>7</td><td>14</td><td>21</td><td class='prawybrzeg'>28</td>
+    <td>4</td><td class='swieta' title='Narodowe Swieto Niepodleglsoci'> <a target='_blank' href='https://pl.wikipedia.org/wiki/Narodowe_Święto_Niepodległości'>11</a></td>
+    <td>18</td><td class='prawybrzeg'>25</td>
+    <td>2</td><td>9</td><td>16</td><td class='ferie'>23</td><td class='prawybrzeg ferie' title='ferie'>30</td>
+    <td class='swieta' title='Trzech Kroli'><a target='_blank' href='https://pl.wikipedia.org/wiki/Objawienie_Pańskie#W_Polsce'>6</a></td>
+    <td>13</td><td>20</td><td class='prawybrzeg'>27</td>
+    <td class='sesja'>3</td><td class='sesja'>10</td><td class='sesja'>17</td><td class='prawybrzeg'>24</td>
+      </tr>
+    <tr class='sobota'>
+    <td class='dzien'>SO</td><td class='gornybrzeg'>1</td><td>8</td><td>15</td><td>22</td><td class='prawybrzeg'>29</td>
+    <td>5</td><td>12</td><td>19</td><td class='prawybrzeg'>26</td>
+    <td>3</td><td>10</td><td>17</td><td>24</td><td class='prawybrzeg'>31</td>
+    <td>7</td><td>14</td><td>21</td><td class='prawybrzeg'>28</td>
+    <td>4</td><td>11</td><td>18</td><td class='prawybrzeg'>25</td>
+      </tr>
+    <tr class='niedziela'>
+    <td class='dzien'>N</td><td>2</td><td>9</td><td>16</td><td>23</td><td class='prawybrzeg'>30</td>
+    <td>6</td><td>13</td><td>20</td><td class='prawybrzeg'>27</td>
+    <td>4</td><td>11</td><td>18</td><td class='prawybrzeg'>25</td>
+    <td class='gornybrzeg'>1</td><td>8</td><td>15</td><td>22</td><td class='prawybrzeg'>29</td>
+    <td>5</td><td>12</td><td>19</td><td class='prawybrzeg'>26</td>
+    </tr>
+
+</table>
+</body>
+</html>
