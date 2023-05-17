@@ -1,5 +1,5 @@
 # PL: Kod z zajęć uniwersyteckich
-Cały autorski kod z zajęć, którym mogę się podzielić.
+Wszystkie autorskie projekty z zajęć, którymi mogę się podzielić.
 
 Projekty dotyczą zajęć:
 
