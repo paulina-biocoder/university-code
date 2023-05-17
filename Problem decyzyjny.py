@@ -1,4 +1,4 @@
-#Kod ma za zadanie pobrać  od użytkownika trzy dowolne liczby, a następnie sprawdzić, czy druga liczba mieści się pomiędzy pierwszą, a trzecią.
+#Program ma za zadanie pobrać od użytkownika trzy dowolne liczby, a następnie sprawdzić, czy druga liczba mieści się pomiędzy pierwszą, a trzecią.
 
 a = input('Podaj pierwszą liczbę: ')
 b = input('Podaj drugą liczbę: ')
