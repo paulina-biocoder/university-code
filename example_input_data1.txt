@@ -1,3 +1,6 @@
+#przykładowe dane wejściowe do programu: nucleotide_to_aminoacid_translator.py
+
+
 >przyklad; id=23; name=; parent=; meaningless data;
 TACTTTTGAGGTCTTTCTATT
 >przyklad; id=20; name=; parent=; meaningless data;
