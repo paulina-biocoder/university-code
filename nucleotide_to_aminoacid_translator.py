@@ -1,3 +1,16 @@
+'''w fukncji nucleotides, znajduje się tabela kodu geneytcznego (sekwencji trójek nukleotydowych, które będą transkrybowane z podanej nici DNA). 
+Jeśli trójka nie znajduje się w tabeli, to w jej miejsce wpisuje się "?".
+Funkcja plik_fasta natomiast otwiera dwa pilki w formacie FASTA, wejściowy i wyjściowy, 
+plik wejściowy odczytuje sekwencje nukleotydów, a zapisuje ją w pliku wyjściowym jako sekwencje aminkowasową.
+W celu transkrypcji sekwencji nukleotydów, stosujemy warunek if,  
+który do zmiennej codons przypisuje listę złożoną z wycinków sekwencji - sekwencja, zaczynający się od indeksu i i kończący na indeksie i+3.
+W pętli range, 3 argument oznacza, że i ma się zwiększać o krok równy 3.
+Jeśli sekwencja rozpoczyna się od kodonu START (TAC - Met), to rozpoczynamy pętlę for.
+W pętli sprawdzamy wszystkie następujące sekwencje, jeśli zgadzają się z tabelą kodu genetycznego, przypisujemy je do zmiennej - protein.
+Jeśli kodon oznacza sekwencję STOP, przerywamy pracę pętli.
+Następnie do plików wyjściowego i wejściowego przypisujemy odpowiednie nagłówki.
+'''
+
 def nucleotides(codon):
 
     genetic_code = {
