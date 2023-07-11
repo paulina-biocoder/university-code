@@ -24,27 +24,27 @@ while not player_found_key:
     print()
     print('W tym pomieszczeniu znajduje się babeczka, znajdź ją i ciesz się smakowitym zwycięstwem! Możesz poruszać się w kierunkach określonych jako [W/A/S/D]: ')
 
-    move = input('Dokąd idziesz?  ')
+    move = input('Dokąd idziesz?:  ')
     move_low = move.lower()
     if move_low == 'w':
         player_b += 1
         if player_b > game_height:
-            print('Uderzasz w ścianę! To boli.')
+            print('Uderzasz w ścianę. To boli!')
             player_b = game_height
     elif move_low == 's':
         player_b -= 1
         if player_b < 0:
-            print('Uderzasz w ścianę! To boli.')
+            print('Uderzasz w ścianę. To boli!')
             player_b = 0
     elif move_low == 'a':
         player_a -= 1
         if player_a < 0:
-            print('Uderzasz w ścianę! To boli.')
+            print('Uderzasz w ścianę. To boli!')
             player_b = 0
     elif move_low == 'd':
         player_a += 1
         if player_a > game_width:
-            print('Uderzasz w ścianę! To boli.')
+            print('Uderzasz w ścianę. To boli!')
             player_a = game_width
     elif move_low == 'q':
         print('Koniec gry.')
