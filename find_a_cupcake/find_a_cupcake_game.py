@@ -1,8 +1,10 @@
-'''Gra "znajdź babeczkę" polega na poszukiwaniu "w ciemno" babeczki, która znajduje się losowo w pomieszczeniu.  
+'''
+Gra "znajdź babeczkę" polega na poszukiwaniu "w ciemno" babeczki, która znajduje się losowo w pomieszczeniu.  
 Na początku zostaje wyświetlona informacja, jakimi znakami możemy się poruszać.
 Następnie użytkownik za pomocą terminala podaje kierunek poruszania, aby odnaleźć babeczkę.
 Podczas gry użytkownik otrzymuje informację, czy jest bliżej babeczki, czy się od niej oddala.
-Kiedy babeczka zostaje odnaleziona, zostają wyświetlone komunikaty o odnalezieniu babeczki i ilości wykonanych ruchów, a gra zostaje zakończona.'''
+Kiedy babeczka zostaje odnaleziona, zostają wyświetlone komunikaty o odnalezieniu babeczki i ilości wykonanych ruchów, a gra zostaje zakończona.
+'''
 
 from math import sqrt
 from random import randint
