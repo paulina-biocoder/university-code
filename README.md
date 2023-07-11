@@ -1,5 +1,5 @@
 # PL: Kod z zajęć uniwersyteckich
-Wszystkie autorskie projekty z zajęć, którymi mogę się podzielić.
+Wszystkie autorskie projekty z zajęć i nie tylko, którymi mogę się podzielić.
 
 Projekty dotyczą zajęć:
 
@@ -8,7 +8,7 @@ Projekty dotyczą zajęć:
 - Pracownia informatyczna
 
 # ENG: Univeristy code
-Here you can find all of my university work that I am able to share.
+Here you can find all of my university work and not only, that I am able to share.
 Mostly contains polish explenations, because most classes are in polish.
 
 Code in classes:
