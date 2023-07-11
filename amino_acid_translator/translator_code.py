@@ -1,4 +1,5 @@
-'''w fukncji nucleotides, znajduje się tabela kodu geneytcznego (sekwencji trójek nukleotydowych, które będą transkrybowane z podanej nici DNA). 
+'''
+Wfukncji nucleotides, znajduje się tabela kodu geneytcznego (sekwencji trójek nukleotydowych, które będą transkrybowane z podanej nici DNA). 
 Jeśli trójka nie znajduje się w tabeli, to w jej miejsce wpisuje się "?".
 Funkcja plik_fasta natomiast otwiera dwa pilki w formacie FASTA, wejściowy i wyjściowy, 
 plik wejściowy odczytuje sekwencje nukleotydów, a zapisuje ją w pliku wyjściowym jako sekwencje aminkowasową.
