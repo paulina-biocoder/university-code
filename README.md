@@ -9,7 +9,7 @@ Projekty dotyczą zajęć:
 
 # ENG: Univeristy code
 Here you can find all of my university work and not only, that I am able to share.
-Mostly contains polish explenations, because most classes are in polish.
+Most classes are in polish, so they'll contains polish explenations
 
 Code in classes:
 
