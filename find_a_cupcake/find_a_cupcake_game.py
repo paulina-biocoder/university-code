@@ -1,7 +1,8 @@
 '''Gra "znajdź babeczkę" polega na poszukiwaniu "w ciemno" babeczki, która znajduje się losowo w pomieszczeniu.  
 Na początku zostaje wyświetlona informacja, jakimi znakami możemy się poruszać.
 Następnie użytkownik za pomocą terminala podaje kierunek poruszania, aby odnaleźć babeczkę.
-Kiedy babeczka zostaje odnaleziona, zostaje wyświetlony komunikat, a gra zostaje zakończona.'''
+Podczas gry użytkownik otrzymuje informację, czy jest bliżej babeczki, czy się od niej oddala.
+Kiedy babeczka zostaje odnaleziona, zostają wyświetlone komunikaty o odnalezieniu babeczki i ilości wykonanych ruchów, a gra zostaje zakończona.'''
 
 from math import sqrt
 from random import randint
@@ -16,7 +17,7 @@ player_b = 0
 player_found_key = False
 steps = 0
 
-distance_before_move = sqrt((cupcake_a - player_a) ** 2 + (cupcake_b - player_b) ** 2)
+distance_before_move = sqrt((cupcake_a - player_a) ** 2 + (cupcake_b - player_b) ** 2) #odległość gracza od babeczki na początku gry
 
 while not player_found_key:
     steps += 1
@@ -57,7 +58,7 @@ while not player_found_key:
         print(f'Wykonał*ś {steps} ruchów, aby odnaleźć babeczkę. Gra zakończona.')
         quit()
 
-    distance_after_move = sqrt((cupcake_a - player_a) ** 2 + (cupcake_b - player_b) ** 2)
+    distance_after_move = sqrt((cupcake_a - player_a) ** 2 + (cupcake_b - player_b) ** 2) #odległość gracza od babeczki w trakcie gry
 
     if distance_before_move > distance_after_move:
         print('Super! Jesteś bliżej babeczki!')
